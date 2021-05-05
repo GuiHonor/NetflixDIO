@@ -1,0 +1,43 @@
+@media screen and (max-width:600px){
+
+
+        .netflix-wrapper{
+            background: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)100%), url(/img/house2.jpg); 
+            background-size:cover;    
+        }
+
+        header .container{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .filme-principal{
+
+            height: 600px;
+
+        }
+
+        .houselogo{
+            height: 8rem;
+            margin-left: 10px;
+            margin-top: 150px;
+        }
+
+        .descricao{
+            display:none;
+        }
+
+        .divbotoes{
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+
+        .botao{
+            margin: 5px;
+        }
+
+       
+
+}

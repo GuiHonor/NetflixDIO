@@ -1,0 +1,138 @@
+:root{
+    --vermelho: #f1252e;
+    --preto: #141414;
+    --cinza1: #d7e5e5;
+    --cinza2: #b3b3b3;
+    --cinza3: #727171;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    color: white;
+    background:var(--preto);
+    font-family: Arial;
+    
+}
+
+.netflix-wrapper{
+   
+    background: linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)100%), url(/img/capa-house.jpg);     
+    background-size:cover;  
+    
+}
+
+header .container{   
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to top, transparent, var(--preto) 100%);
+    
+}
+
+header .logo{
+    margin-left: 50px;
+    margin-right: 40px;
+    height: 4rem;
+    cursor: pointer;
+}
+
+  .itens{
+     display: flex;
+     
+ }
+/*
+    .second-itens{
+     justify-self:right;
+     margin-left:1100px;
+ }*/
+
+header nav a{
+    text-decoration: none;
+    color: #d7e5e5;
+    font-family: Arial;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+header nav a:hover{
+    color: #b3b3b3;
+    
+}
+
+.filme-principal{
+    font-size: 16px;
+    /*background: url(/img/capa-house.jpg);
+
+    height: 400px;
+    background-size: cover; */
+    height:800px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: flex-start;
+    
+}
+
+.houselogo{
+    height: 10rem;
+    margin-left:70px;
+    margin-top:100px;
+}
+
+.descricao{
+    font-size: 20px;
+    margin-left:10px;
+    margin-bottom: 20px;
+
+}
+
+.divbotoes{
+    margin-left:100px;
+    
+
+}
+
+.botao{
+    border:none;
+    font-family: arial ;
+    font-size: 25px;
+    height: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#botao1{
+    background: white;
+    margin-right: 10px;
+}
+
+#botao1:hover{
+    background: var(--cinza1);
+}
+#botao2{
+    opacity: 0.85;
+    
+    background: var(--cinza3);
+    color:  white;   
+    
+    
+}
+
+#botao2:hover{
+    background: #646568;
+}
+
+
+
+.box-filme{
+    height:100%;
+    width:100%;
+    display:block;
+}
